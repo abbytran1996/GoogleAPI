@@ -1,0 +1,465 @@
+ '''
+    Created job: name: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/jobs/75258296463696582"
+    company: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/fa8e59c6-dd47-4b8a-822b-6e77aab6b217"
+    requisition_id: "5fafbae6-27e2-4458-89ae-efa3155a5365"
+    title: "Software Engineer, Intern/Co-op"
+    description: "Code high-volume software using primarily C++ and Java. Create web applications using primarily PHP. Implement web interfaces using XHTML, CSS, and JavaScript. Build report interfaces and data feeds"
+    addresses: "Menlo Park, CA"
+    addresses: "Seattle, WA"
+    addresses: "Washington, DC"
+    addresses: "Boston, MA"
+    addresses: "New York, NY"
+    application_info {
+    uris: "https://www.facebook.com/careers/jobs/2350871135127906/"
+    }
+    custom_attributes {
+    key: "skills"
+    value {
+        string_values: "perl"
+        string_values: "java"
+        string_values: "php"
+        string_values: "python"
+        string_values: "c++"
+        filterable: true
+    }
+    }
+    degree_types: BACHELORS_OR_EQUIVALENT
+    employment_types: INTERN
+    language_code: "en-US"
+    visibility: ACCOUNT_ONLY
+    posting_publish_time {
+    seconds: 1572370820
+    nanos: 602000000
+    }
+    posting_expire_time {
+    seconds: 1574966420
+    nanos: 3000000
+    }
+    posting_create_time {
+    seconds: 1572370820
+    nanos: 17000000
+    }
+    posting_update_time {
+    seconds: 1572370820
+    nanos: 17000000
+    }
+    company_display_name: "Facebook"
+    derived_info {
+    locations {
+        location_type: LOCALITY
+        postal_address {
+        region_code: "US"
+        administrative_area: "CA"
+        locality: "Menlo Park"
+        address_lines: "Menlo Park, CA, USA"
+        }
+        lat_lng {
+        latitude: 37.4529598
+        longitude: -122.1817252
+        }
+        radius_miles: 0.004880430302941497
+    }
+    locations {
+        location_type: LOCALITY
+        postal_address {
+        region_code: "US"
+        administrative_area: "WA"
+        locality: "Seattle"
+        address_lines: "Seattle, WA, USA"
+        }
+        lat_lng {
+        latitude: 47.6062095
+        longitude: -122.3320708
+        }
+        radius_miles: 0.006308934455724956
+    }
+    locations {
+        location_type: LOCALITY
+        postal_address {
+        region_code: "US"
+        administrative_area: "DC"
+        locality: "Washington"
+        address_lines: "Washington, DC, USA"
+        }
+        lat_lng {
+        latitude: 38.9071923
+        longitude: -77.0368707
+        }
+        radius_miles: 0.005697721508462908
+    }
+    locations {
+        location_type: LOCALITY
+        postal_address {
+        region_code: "US"
+        administrative_area: "MA"
+        locality: "Boston"
+        address_lines: "Boston, MA, USA"
+        }
+        lat_lng {
+        latitude: 42.3600825
+        longitude: -71.0588801
+        }
+        radius_miles: 0.009961409892116989
+    }
+    locations {
+        location_type: LOCALITY
+        postal_address {
+        region_code: "US"
+        administrative_area: "NY"
+        locality: "New York"
+        address_lines: "New York, NY, USA"
+        }
+        lat_lng {
+        latitude: 40.7127753
+        longitude: -74.0059728
+        }
+        radius_miles: 0.013257214673553773
+    }
+    job_categories: COMPUTER_AND_IT
+'''
+
+# JOB1
+Created job: name: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/jobs/122483135309849286"
+company: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/fa8e59c6-dd47-4b8a-822b-6e77aab6b217"
+requisition_id: "3a26db31-b024-4485-943f-d7bbe8b053fa"
+title: "Software Engineer"
+description: "Software Engineer"
+addresses: "Boston, MA"
+addresses: "New York, NY"
+application_info {
+  uris: "https://www.facebook.com/careers/jobs/2350871135127906/"
+}
+custom_attributes {
+  key: "company_size"
+  value {
+    string_values: "small"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "gpa"
+  value {
+    long_values: 3
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "recommended_skills"
+  value {
+    string_values: "Ruby"
+    string_values: "PHP"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "required_skills"
+  value {
+    string_values: "Java"
+    string_values: "Python"
+    filterable: true
+  }
+}
+degree_types: BACHELORS_OR_EQUIVALENT
+employment_types: INTERN
+language_code: "en-US"
+visibility: ACCOUNT_ONLY
+posting_publish_time {
+  seconds: 1572973934
+  nanos: 546000000
+}
+posting_expire_time {
+  seconds: 1575565933
+  nanos: 937000000
+}
+posting_create_time {
+  seconds: 1572973933
+  nanos: 966000000
+}
+posting_update_time {
+  seconds: 1572973933
+  nanos: 966000000
+}
+company_display_name: "Facebook"
+derived_info {
+  locations {
+    location_type: LOCALITY
+    postal_address {
+      region_code: "US"
+      administrative_area: "MA"
+      locality: "Boston"
+      address_lines: "Boston, MA, USA"
+    }
+    lat_lng {
+      latitude: 42.3600825
+      longitude: -71.0588801
+    }
+    radius_miles: 0.009961409892116989
+  }
+  locations {
+    location_type: LOCALITY
+    postal_address {
+      region_code: "US"
+      administrative_area: "NY"
+      locality: "New York"
+      address_lines: "New York, NY, USA"
+    }
+    lat_lng {
+      latitude: 40.7127753
+      longitude: -74.0059728
+    }
+    radius_miles: 0.013257214673553773
+  }
+}
+
+# JOB2: Apple
+Created job: name: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/jobs/101061212826936006"
+company: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/c221fb6d-9b33-47da-93d2-f455aed66df7"
+requisition_id: "79305514-7b90-4420-b0c6-a274932d1d6c"
+title: "Software Engineer"
+description: "Software Engineer"
+addresses: "Seattle, WA"
+addresses: "New York, NY"
+application_info {
+  uris: "https://www.apple.com/jobs/us/"
+}
+custom_attributes {
+  key: "company_size"
+  value {
+    string_values: "large"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "gpa"
+  value {
+    long_values: 3
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "recommended_skills"
+  value {
+    string_values: "Ruby"
+    string_values: "JavaScript"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "required_skills"
+  value {
+    string_values: "Java"
+    string_values: "Python"
+    string_values: "PHP"
+    filterable: true
+  }
+}
+degree_types: BACHELORS_OR_EQUIVALENT
+employment_types: INTERN
+language_code: "en-US"
+visibility: ACCOUNT_ONLY
+posting_publish_time {
+  seconds: 1572974933
+  nanos: 311000000
+}
+posting_expire_time {
+  seconds: 1575566932
+  nanos: 613000000
+}
+posting_create_time {
+  seconds: 1572974932
+  nanos: 625000000
+}
+posting_update_time {
+  seconds: 1572974932
+  nanos: 625000000
+}
+company_display_name: "Apple"
+derived_info {
+  locations {
+    location_type: STREET_ADDRESS
+    postal_address {
+      region_code: "US"
+      postal_code: "98105"
+      administrative_area: "WA"
+      locality: "Seattle"
+      address_lines: "2656 NE University Village St, Seattle, WA 98105, USA"
+    }
+    lat_lng {
+      latitude: 47.6640832
+      longitude: -122.2984756
+    }
+    radius_miles: 6.978158862867887e-05
+  }
+  locations {
+    location_type: LOCALITY
+    postal_address {
+      region_code: "US"
+      administrative_area: "NY"
+      locality: "New York"
+      address_lines: "New York, NY, USA"
+    }
+    lat_lng {
+      latitude: 40.7127753
+      longitude: -74.0059728
+    }
+    radius_miles: 0.013257214673553773
+  }
+}
+
+# JOB 3:
+Created job: name: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/jobs/82250218143130310"
+company: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/2cd2df30-fdbe-43ff-ab62-78245c6c5fe2"
+requisition_id: "39d83aa4-4659-4aa7-90c3-49913bf73af4"
+title: "Software Engineer Intern"
+description: "Software Engineer"
+addresses: "San Francisco, CA"
+application_info {
+  uris: "https://www.amazon.jobs/en"
+}
+custom_attributes {
+  key: "company_size"
+  value {
+    string_values: "medium"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "gpa"
+  value {
+    long_values: 3
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "recommended_skills"
+  value {
+    string_values: "Ruby"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "required_skills"
+  value {
+    string_values: "Java"
+    filterable: true
+  }
+}
+degree_types: BACHELORS_OR_EQUIVALENT
+employment_types: INTERN
+language_code: "en-US"
+visibility: ACCOUNT_ONLY
+posting_publish_time {
+  seconds: 1572975094
+  nanos: 955000000
+}
+posting_expire_time {
+  seconds: 1575567094
+  nanos: 676000000
+}
+posting_create_time {
+  seconds: 1572975094
+  nanos: 690000000
+}
+posting_update_time {
+  seconds: 1572975094
+  nanos: 690000000
+}
+company_display_name: "Amazon"
+derived_info {
+  locations {
+    location_type: STREET_ADDRESS
+    postal_address {
+      region_code: "US"
+      postal_code: "94103"
+      administrative_area: "CA"
+      locality: "San Francisco"
+      address_lines: "1695 Mission St, San Francisco, CA 94103, USA"
+    }
+    lat_lng {
+      latitude: 37.7705095
+      longitude: -122.4190594
+    }
+    radius_miles: 7.606361869137655e-05
+  }
+}
+
+# JOB4: Designer at Google
+Created job: name: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/jobs/107256960849453766"
+company: "projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/486e5d0a-1619-4248-a7ed-23ea222f707e"
+requisition_id: "f9b32892-d5f0-49d6-ab5d-36f508398423"
+title: "User Experience Designer"
+description: "Design and user experience (UX) are at the forefront of everything we do. The job of a Designer is to envision how people experience our products and bring that vision to life in a way that feels inspired, refined and even magical. In a Designer role, you\342\200\231ll address complex tasks and transform them into intuitive, accessible and easy-to-use solutions for billions of people around the world\342\200\224from the first-time user to the sophisticated expert. Achieving this goal requires collaboration with teams of other Designers, Researchers, Engineers and Product Managers throughout the design process\342\200\224from creating user flows and wireframes to building user interface mockups and prototypes. At each stage, you will anticipate what our users need, advocate for them and ensure that the final product surprises and delights them"
+addresses: "San Francisco, CA"
+application_info {
+  uris: "https://careers.google.com/jobs/"
+}
+custom_attributes {
+  key: "company_size"
+  value {
+    string_values: "large"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "gpa"
+  value {
+    long_values: 3
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "recommended_skills"
+  value {
+    string_values: "After Effects"
+    filterable: true
+  }
+}
+custom_attributes {
+  key: "required_skills"
+  value {
+    string_values: "Photoshop"
+    string_values: "Illustrator"
+    filterable: true
+  }
+}
+degree_types: BACHELORS_OR_EQUIVALENT
+employment_types: INTERN
+language_code: "en-US"
+visibility: ACCOUNT_ONLY
+posting_publish_time {
+  seconds: 1572975683
+  nanos: 629000000
+}
+posting_expire_time {
+  seconds: 1575567683
+  nanos: 476000000
+}
+posting_create_time {
+  seconds: 1572975683
+  nanos: 486000000
+}
+posting_update_time {
+  seconds: 1572975683
+  nanos: 486000000
+}
+company_display_name: "Google"
+derived_info {
+  locations {
+    location_type: STREET_ADDRESS
+    postal_address {
+      region_code: "US"
+      postal_code: "94105"
+      administrative_area: "CA"
+      locality: "San Francisco"
+      address_lines: "201 Spear St #1100, San Francisco, CA 94105, USA"
+    }
+    lat_lng {
+      latitude: 37.7912629
+      longitude: -122.3920152
+    }
+    radius_miles: 7.402268911789272e-05
+  }
+  job_categories: ART_FASHION_AND_DESIGN
+  job_categories: COMPUTER_AND_IT
+}
+
