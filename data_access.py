@@ -219,24 +219,40 @@ def search_jobs(project_id, query, skills, gpa, locations, company_size, industr
 
     # TODO: For now I just OR everthing, but we later on need to find a way to enforce required_skills
     # Example of a query: 
-    # 'LOWER(required_skills)="java" AND LOWER(required_skills)="python" AND LOWER(required_skills)="php"'
+    # 'LOWER(required_skills)="java" OR LOWER(required_skills)="python" OR LOWER(required_skills)="php"'
     # Construct query string for required_skills
-    skills_query = 'LOWER(required_skills)='
+    custom_query = '((LOWER(required_skills)='
     for skill in skills[0:-1]:
-        skills_query += '"' + skill.lower() + '" OR LOWER(required_skills)='
-    skills_query += '"' + (skills[-1]).lower() + '" OR '
+        custom_query += '"' + skill.lower() + '" OR LOWER(required_skills)='
+    custom_query += '"' + (skills[-1]).lower() + '") OR '
 
     # Construct query string for recommended_skills
-    skills_query += 'LOWER(recommended_skills)='
+    custom_query += '(LOWER(recommended_skills)='
     for skill in skills[0:-1]:
-        skills_query += '"' + skill.lower() + '" OR LOWER(recommended_skills)='
-    skills_query += '"' + (skills[-1]).lower() + '"'
+        custom_query += '"' + skill.lower() + '" OR LOWER(recommended_skills)='
+    custom_query += '"' + (skills[-1]).lower() + '"))'
+
+    # Construct query string for GPA
+    if (gpa != None):
+        custom_query += ' AND ( gpa <= 3 )'
+
+    # Construct query string for company_size
+    if (company_size != None):
+        custom_query += ' AND ( company_size = "' + company_size +'" )'
+
+    print('Skills query string: ', custom_query)
+
+    # Add location to query string
+    if (locations != None):
+        for location in locations:
+            query += ' ' + location
+    print('Query string: ', query)
 
     # TODO: Add gpa, locations, company_size, industry to job_query 
     job_query = {
         'query': query,
         'queryLanguageCode': 'en-US',
-        'customAttributeFilter': skills_query
+        'customAttributeFilter': custom_query
     }
     order_by = 'relevance desc'
 

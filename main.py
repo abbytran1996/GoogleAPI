@@ -1,5 +1,4 @@
 
-import settings
 import numpy
 from data_access import create_company, list_companies, create_job, list_jobs, search_jobs
 from uuid import uuid4
@@ -31,7 +30,7 @@ def main():
     Below are the jobs that I have created
     '''
     # JOB1: Facebook
-    # create_job(PROJECT_ID, 'projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/fa8e59c6-dd47-4b8a-822b-6e77aab6b217', str(uuid4()), 'Software Engineer', 'Software Engineer', 'https://www.facebook.com/careers/jobs/2350871135127906/', ['Boston, MA', 'New York, NY'], 'en-US', required_skills=['Java','Python'], recommended_skills=['Ruby','PHP'], gpa=int(3.2), company_size='small', degree_type=degreeType, employment_type=employmentType)
+    create_job(PROJECT_ID, 'projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/fa8e59c6-dd47-4b8a-822b-6e77aab6b217', str(uuid4()), 'Software Engineer', 'Software Engineer', 'https://www.facebook.com/careers/jobs/2350871135127906/', ['Boston, MA', 'New York, NY'], 'en-US', required_skills=['Python'], recommended_skills=['Ruby','PHP'], gpa=int(3.2), company_size='small', degree_type=degreeType, employment_type=employmentType)
 
     # JOB2: Apple
     # create_job(PROJECT_ID, 'projects/recruitrtest-256719/tenants/075e3c6b-df00-0000-0000-00fbd63c7ae0/companies/c221fb6d-9b33-47da-93d2-f455aed66df7', str(uuid4()), 'Software Engineer', 'Software Engineer', 'https://www.apple.com/jobs/us/', ['Seattle, WA', 'New York, NY'], 'en-US', required_skills=['Java','Python', 'PHP'], recommended_skills=['Ruby','JavaScript'], gpa=int(3.4), company_size='large', degree_type=degreeType, employment_type=employmentType)
@@ -56,10 +55,10 @@ def main():
     company_size = 'large'
     industry = 'SOFTWARE'
 
-    response = search_jobs(project_id, query, skills, gpa, locations, company_size, industry)
-    f = open("search_results.txt", "a")
-    f.write(str(response))
-    f.close()
+    #response = search_jobs(project_id, query, skills, gpa, locations, company_size, industry)
+    # f = open("search_results.txt", "a")
+    # f.write(str(response))
+    # f.close()
 
 if __name__ == '__main__':
     main()
